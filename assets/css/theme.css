@@ -58,10 +58,10 @@ main {
     top: 180px;
     right: 40px;
 }
-.main_about, .main_time_line{
+.main_about, .main_time_line, .main_dop_info{
     margin-top: 50px;
 }
-.main_about .about_head, .main_time_line .time_line_head {
+.main_about .about_head, .main_time_line .time_line_head, .main_dop_info .dop_info_head {
     font-size: 30px;
 }
 hr{
@@ -70,12 +70,11 @@ hr{
     display: inline-block;
     margin-bottom: 0;
 }
-
 .time_line_time, .time_line_professional{
     font-weight: bold;
     font-size: 18px;
 }
-.time_line_company{
+.time_line_company, .dop_info_header{
     font-weight: bold;
     font-size: 27px;
 }
