@@ -27,3 +27,32 @@ a:hover{
     right: 38px;
     content: '|';
 }
+main {
+    background-color: #fff;
+}
+.main_info{
+    position: relative;
+    min-height: 215px;
+}
+.main_info .first_name, .main_info .last_name {
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    left: -144px;
+    top:85px
+}
+.main_info .last_name{
+    top: 145px
+}
+.main_info .photo{
+    position: absolute;
+    right: -80px;
+}
+.main_info .professional {
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 180px;
+    right: 40px;
+}
