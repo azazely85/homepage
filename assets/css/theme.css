@@ -1,6 +1,7 @@
 body {
     margin: 40px;
     background-color: #e1e1e1;
+    font-size: 16px;
 }
 html {
     background-color: #fff;
@@ -29,6 +30,7 @@ a:hover{
 }
 main {
     background-color: #fff;
+    padding: 25px;
 }
 .main_info{
     position: relative;
@@ -55,4 +57,16 @@ main {
     position: relative;
     top: 180px;
     right: 40px;
+}
+.main_about{
+    margin-top: 50px;
+}
+.main_about .about_head {
+    font-size: 30px;
+}
+hr{
+    width: 70px;
+    border: 2px solid;
+    display: inline-block;
+    margin-bottom: 0;
 }
