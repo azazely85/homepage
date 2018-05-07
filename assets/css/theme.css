@@ -81,3 +81,13 @@ hr{
 .main_time_line .col-lg-6{
     margin-top: 20px;
 }
+footer .container{
+    min-height: 80px;
+    position: relative;
+}
+.social_links {
+    position: absolute;
+    font-size: 30px;
+    right: -60px;
+    top: -40px;
+}
